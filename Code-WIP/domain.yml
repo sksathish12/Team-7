@@ -8,26 +8,64 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - faq_symptoms
+  - faq_vaccine
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
+
+  utter_faq_symptoms:
+    - text:
+        COVID-19 affects different people in different ways. Most infected people
+        will develop mild to moderate symptoms.Common symptoms:fever, tiredness, dry
+        coughSome people may experience:aches and pains, nasal congestion, runny nose,
+        sore throat, diarrhoea. On average it takes 5–6 days from when someone is infected
+        with the virus for symptoms to show, however it can take up to 14 days
+    - text:
+        The virus can cause a range of symptoms, from ranging from mild illness
+        to pneumonia. Symptoms of the disease are fever, cough, sore throat and headaches.
+    - text:
+        Most people infected with the COVID-19 virus will experience mild to moderate
+        respiratory illness and recover without requiring special treatment. Older people,
+        and those with underlying medical problems like cardiovascular disease, diabetes,
+        chronic respiratory disease, and cancer are more likely to develop serious illness.
+    - text:
+        People with COVID-19 generally develop signs and symptoms, including mild
+        respiratory symptoms and fever, on an average of 5-6 days after infection (mean
+        incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19
+        virus have mild disease and recover.
+
+  utter_faq_vaccine:
+    - text:
+        When a disease is new, there is no vaccine until one is developed. It can
+        take a few months to number of years for a new vaccine to be developed.
+    - text:
+        There is no specific treatment for disease caused by a novel coronavirus.
+        However, many of the symptoms can be treated and therefore treatment based on
+        the patient's clinical condition.
+    - text:
+        Currently hydroxychloroquine is being used to treat patients in case of
+        severe illness.
+    - text:
+        No, antibiotics do not work against viruses. The 2019-nCOV is a virus and,
+        therefore, antibiotics should not be used as a means of prevention or treatment.
 
 session_config:
   session_expiration_time: 60

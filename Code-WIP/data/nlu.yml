@@ -1,92 +1,202 @@
 version: "2.0"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
 
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: faq_symptoms
+    examples: |
+      - am i going to die?
+      - am i going to need hospital treatment?
+      - am i going to need hospital treatment?
+      - are aches a symptom?
+      - are the symptoms serious?
+      - are aches a symptom?
+      - are the symptoms serious?
+      - can i still have it but have no symptoms?
+      - can people die from contacting covid-19?
+      - can people die from contracting covid-19?
+      - can people die from coronavirus?
+      - can people die from this?
+      - can there be complications from covid-19 symptoms?
+      - can you be infected and not show any symptoms?
+      - can you tell me what the symptoms are?
+      - could i be carrying coronavirus if i don't have symptoms?
+      - does everyone have symptoms?
+      - how badly should i be coughing
+      - how can i identify the symptoms of corona?
+      - how can i tell if i have corona virus?
+      - how do i know i have covid-19?
+      - how do i know i might be a carrier?
+      - how do i know i might have it?
+      - how do i know if i have a high temperature?
+      - how do i know if i have it?
+      - how do i know if i need hospital treatment?
+      - how do i know if i'm a carrier of covid-19?
+      - how do i know if i've caught coronavirus?
+      - how do i know if i've caught it?
+      - how high does my fever have to be for me to go to hospital?
+      - how high is a fever?
+      - how is your body affected by corona?
+      - how long do i have to be sick for before i can go to a clinic?
+      - how long should i have a fever for?
+      - how severe do my symptoms have to be before i go to hospital?
+      - how would my body feel if i caught the virus?
+      - i have a fever, do i have corona?
+      - i'm coughing, what should i do?
+      - is a symptom?
+      - is coughing a symptom of the disease?
+      - is joint pain a symptom?
+      - should i go to a health centre if i have symptoms?
+      - what are the signs and symptoms?
+      - what are the signs of corona?
+      - what are the signs of covid-19
+      - what are the signs?
+      - what are the symptoms?
+      - what counts as a high temperature?
+      - what do aches and pains mean?"
+      - what do the symptoms look like?
+      - what does a high temperature feel like?
+      - what does asymptomatic mean?
+      - what does dry cough mean?
+      - what does having corona feel like?
+      - what does having corona virus feel like?
+      - what does having the virus feel like?
+      - what does it mean if i'm coughing?
+      - what does it mean to be asymptomatic?
+      - what does persistent cough mean?
+      - what does the virus do to your body?
+      - what does this virus do to the body
+      - what is a dry cough?
+      - what is a fever?
+      - what is a high temperatures?
+      - what is an asymptomatic carrier?
+      - what is different about a dry cough?
+      - what should i do if i think i have it?
+      - what should i do if i think i might have corona virus?
+      - what signs of covid-19 should i look for?
+      - what temperature is a fever?
+      - when do i need to go to a clinic?
+      - when is a cough persistent?
+      - when should i go to hospital?
+      - when should i go to the emergency room?
+
+  - intent: faq_vaccine
+    examples: |
+      - am i immune once i've been vaccinated
+      - are inoculations available?
+      - are they researching vaccines?
+      - are inoculations available?
+      - are they researching vaccines?
+      - are they working on vaccines?
+      - can covid be cured?
+      - can i be vaccinated?
+      - can inoculation protect you from coronavirus?
+      - can researching make a vaccine?
+      - can vaccines protect you from corona?
+      - can you be inoculated against the virus?
+      - can you be inoculated?
+      - can you be vaccinated to protect you from covid-19?
+      - can you be vaccinated?
+      - can you get vaccinated?
+      - how can i be vaccinated?
+      - how does vaccine research work
+      - how long will it take to develop a vaccine?
+      - how long will it take to develop inoculation?
+      - how long will it take to research a vaccine?
+      - is a vaccine being developed?
+      - is there a cure?
+      - is there a vaccine against coronavirus?
+      - is there si cure for covid-19?
+      - what does herd immunity mean?
+      - what is herd immunity
+      - what is inoculation?
+      - when will inoculations be available?  
+      - when can we expected a vaccine?

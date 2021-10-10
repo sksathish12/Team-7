@@ -200,3 +200,42 @@ nlu:
       - what is inoculation?
       - when will inoculations be available?  
       - when can we expected a vaccine?
+
+  - intent: inquire_cases
+    examples: |
+      - what is the corona cases number in [Tamilnadu](state)
+      - corona cases number in [Kerala](state)
+      - corona cases count in [Goa](state)
+
+  - lookup: state
+    examples: |
+      - Karnataka
+      - Tamilnadu
+      - Kerala
+      - Pondichhery
+      - Maharastra
+      - Goa
+      - AndhraPradesh
+      - Telangana
+      - AdhyaPradesh
+      - UP
+      - Delhi
+      - Gujarat
+      - Hariyana
+      - HimachalPradesh
+      - Uttarakhand
+      - Jammu and Kashmir
+      - Ladakh
+      - Chattisgarh
+      - Bihar
+      - Jharkhand
+      - Odisha
+      - WestBengal
+      - Sikkim
+      - Assam
+      - Meghalaya
+      - Manipur
+      - Nagaland
+      - Mijoram
+      - Tripura
+      - Arunachal Pradesh

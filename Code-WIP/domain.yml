@@ -10,10 +10,14 @@ intents:
   - bot_challenge
   - faq_symptoms
   - faq_vaccine
+  - inquire_cases
+
+entities:
+  - state
 
 responses:
   utter_greet:
-    - text: "Hey! How are you?"
+    - text: "Hai! I am a COVID-19 Assistant here to help you find answers"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -54,18 +58,16 @@ responses:
 
   utter_faq_vaccine:
     - text:
-        When a disease is new, there is no vaccine until one is developed. It can
-        take a few months to number of years for a new vaccine to be developed.
+        The safety and efficacy data from clinical trials of vaccine candidates are examined by Drug regulator of our country before granting the license for the same. Hence, all the COVID-19 vaccines that receive license will have comparable safety and efficacy.
     - text:
-        There is no specific treatment for disease caused by a novel coronavirus.
-        However, many of the symptoms can be treated and therefore treatment based on
-        the patient's clinical condition.
+        It is absolutely necessary that everyone who has received the COVID-19 vaccine should continue to follow the COVID-19 appropriate behaviour
     - text:
-        Currently hydroxychloroquine is being used to treat patients in case of
-        severe illness.
+        Two vaccines were granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India, Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin® (manufactured by Bharat Biotech Limited). Sputnik - V has been granted EUA in the month of April 2021.
     - text:
-        No, antibiotics do not work against viruses. The 2019-nCOV is a virus and,
-        therefore, antibiotics should not be used as a means of prevention or treatment.
+        The body responds to vaccination by making more than one type of antibodies to virus parts including spike protein. Therefore, all vaccines are expected to provide reasonable amount of protection against the mutated virus also. 
+
+actions:
+  - action_tell_cases
 
 session_config:
   session_expiration_time: 60

@@ -1,8 +1,11 @@
 # deepvisiontech-hack
 # COVID-19 Chatbot - Stay Informed
-# Team Members :
+Team Members :
+
   Sathish Kumar P
+
   Santhosh P
+  
   Sathiya Narayanan V
 
 Intoduction
